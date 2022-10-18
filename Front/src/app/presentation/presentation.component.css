@@ -1,0 +1,23 @@
+h1 {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+h6 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.presentation {
+  background-color: rgb(220, 227, 245);
+}
+.card-body {
+line-height: 1.8em;
+  color: black;
+  padding: 8%;
+  text-align: center;
+}
+.props{
+    font-size: 15px;
+
+}

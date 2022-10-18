@@ -1,0 +1,18 @@
+#title_company{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times;
+    font-size:25px;
+    font-weight: 600;
+
+}
+
+a{
+    color: black;
+    font-family: Arial,Helvetica,;
+    font-size:15px;
+}
+a:hover,a:visited{
+    color :black
+}
+nav{
+    padding: 3rem}
