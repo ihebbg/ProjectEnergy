@@ -1,0 +1,46 @@
+h2 {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 800;
+  line-height: 1.4em;
+  text-align: center;
+  font-size: 40px;
+}
+h6 {
+  line-height: 1.8em;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  color: black;
+}
+.card-body{
+  margin-top: 10%;
+
+}
+h1 {
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 2em;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 22%;
+  padding-right: 22%;
+  font-family: "Times New Roman", Times, serif;
+}
+.s1 {
+  background-color: rgb(220, 227, 245);
+}
+.service_desciption{
+  font-weight: lighter;
+  line-height: 2em;
+  font-family: Arial, Helvetica;
+  font-size: 15px;
+  color: black;
+  padding-right: 22%;
+  padding-left: 22%;
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}

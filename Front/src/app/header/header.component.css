@@ -1,18 +1,36 @@
-#title_company{
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times;
-    font-size:25px;
-    font-weight: 600;
-
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times;
+  font-size: 25px;
+  font-weight: 600;
 }
 
-a{
-    color: black;
-    font-family: Arial,Helvetica,;
-    font-size:15px;
+a {
+  color: black;
+  font-family: Arial, Helvetica;
+  font-size: 15px;
+  font-weight: lighter;
 }
-a:hover,a:visited{
-    color :black
+a:hover,
+a:visited {
+  color: black;
 }
-nav{
-    padding: 3rem}
+nav {
+  padding: 1.8rem;
+  background-color: white;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+button,button:focus {
+  border: none;
+  color: white;
+
+
+}
+.bi-list{
+  color: black;
+  font-size: larger;
+}

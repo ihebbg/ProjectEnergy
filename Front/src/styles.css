@@ -3,3 +3,12 @@
   padding-top: 3rem;
 
 } */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+html,body{
+  width:100%;
+  margin:0;
+  height: 100%;
+  padding: 0;
+
+}

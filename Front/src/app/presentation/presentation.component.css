@@ -1,23 +1,57 @@
 h1 {
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 800;
+  color: black;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
-h6 {
+.slogan {
+  line-height: 1.67em;
+  font-weight: lighter;
   font-size: 20px;
-  font-weight: normal;
+  color: black;
 }
 .presentation {
   background-color: rgb(220, 227, 245);
 }
 .card-body {
-line-height: 1.8em;
-  color: black;
-  padding: 8%;
   text-align: center;
+  margin-top: 10%;
 }
-.props{
-    font-size: 15px;
-
+.propos {
+  font-weight: normal;
+  line-height: 1.8em;
+  font-family: Arial, Helvetica;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+}
+.propos_plus {
+  font-weight: normal;
+  line-height: 2em;
+  font-family: Arial, Helvetica;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding-right: 22%;
+  padding-left: 22%;
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+.img-overlay {
+  opacity: 0.6;
+  height: 75vh;
 }
