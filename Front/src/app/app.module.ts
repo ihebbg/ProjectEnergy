@@ -7,6 +7,11 @@ import { HeaderComponent } from './header/header.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ServicesComponent } from './_services/services.component';
 import { PartenaireComponent } from './partenaire/partenaire.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { OnlineComponent } from './online/online.component';
+import { AccueilComponent } from './accueil/accueil.component';
+import { NosServicesComponent } from './nos-services/nos-services.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +20,11 @@ import { PartenaireComponent } from './partenaire/partenaire.component';
     PresentationComponent,
     ServicesComponent,
     PartenaireComponent,
+    ContactComponent,
+    FooterComponent,
+    OnlineComponent,
+    AccueilComponent,
+    NosServicesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

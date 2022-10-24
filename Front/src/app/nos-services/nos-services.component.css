@@ -1,0 +1,33 @@
+h3 {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 800;
+  line-height: 1.5em;
+  text-align: center;
+  margin-top: 5%;
+}
+span {
+  display: block;
+  padding: 3%;
+}
+h4 {
+  color: black;
+  font-weight: 700;
+  font-family: "Times New Roman", Times;
+  text-align: start;
+}
+.card-header {
+  height: 200px;
+}
+.card {
+  max-width: 15rem;
+}
+.btn {
+  background-color: rgb(1, 66, 53);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: 100px;
+  font: normal normal normal 16px/1.4em lato-light, lato, sans-serif;
+}

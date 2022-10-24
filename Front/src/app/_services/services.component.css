@@ -1,46 +1,59 @@
-h2 {
+h1 {
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: 800;
-  line-height: 1.4em;
-  text-align: center;
   font-size: 40px;
+  padding-top: 3%;
+  text-align: center;
 }
 h6 {
-  line-height: 1.8em;
-  text-align: center;
   font-weight: lighter;
   font-size: 18px;
+  text-align: center;
   color: black;
-}
-.card-body{
-  margin-top: 10%;
+  padding-bottom: 3%;
 
 }
-h1 {
-  text-align: left;
+.card-body {
+  margin-top: 8%;
+
+}
+h2 {
   text-transform: uppercase;
   line-height: 2em;
   font-size: 22px;
+  text-align: start;
+  color: black;
   font-weight: bold;
-  padding-left: 22%;
-  padding-right: 22%;
+  padding-left: 25%;
+  padding-right: 25%;
   font-family: "Times New Roman", Times, serif;
 }
-.s1 {
+.s1,
+.s2,
+.s3 {
   background-color: rgb(220, 227, 245);
 }
-.service_desciption{
-  font-weight: lighter;
+p {
   line-height: 2em;
-  font-family: Arial, Helvetica;
+  text-align: start;
+  font-weight: normal;
+  padding-left: 25%;
+  padding-right: 25%;
   font-size: 15px;
-  color: black;
-  padding-right: 22%;
-  padding-left: 22%;
 }
 .img-fluid {
   width: 100%;
   height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  p,h2 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  h1{
+    font-size: 35px;
+  }
+ 
 }
