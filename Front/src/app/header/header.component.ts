@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   constructor() {}
-
+  navigateToContact(): any {
+    const element = document.getElementById('contact') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
+  navigateToPresentation(): any {
+    const element = document.getElementById('presentation') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
   ngOnInit(): void {}
 }

@@ -12,14 +12,24 @@ a:visited {
   font-weight: lighter;
   line-height: 30px}
 nav {
-  padding-top:2rem;
-  padding-bottom: 2rem;
+
   background-color: white;
   
 }
-ul{
+.dropdown-menu{
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+.navbar{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.navbar-nav{
   list-style-type: none;
 
+}
+.dropdown-item:focus{
+  background-color: white;
 }
 .navbar-toggler {
   border: 0 !important;

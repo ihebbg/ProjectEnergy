@@ -1,35 +1,62 @@
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <span class="navbar-brand"> infoenergy</span>
-    <div class="toggle">
-      <button
-        class="navbar-toggler collapsed"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="toggler-icon top-bar"></span>
-        <span class="toggler-icon middle-bar"></span>
-        <span class="toggler-icon bottom-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul
-        class="navbar-nav w-100 mr-auto justify-content-end"
-        aria-labelledby="navbarSupportedContent"
-      >
-        <li class="nav-item">
-          <a class="nav-link" routerLink="infoenergy/online"
-            >Réservation en ligne</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="infoenergy"> Accueil </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <span class="navbar-brand "> infoenergy</span>
+  <div class="toggle">
+    <button class="navbar-toggler collapsed " type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse "
+    id="navbarSupportedContent">
+    <ul class="navbar-nav w-100 mr-auto justify-content-end "
+      aria-labelledby="navbarSupportedContent">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/infoenergy"> Accueil </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="" (click)="navigateToPresentation()">
+          Qui Somme Nous ? </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="" (click)="navigateToContact()"> Contact
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink=""> Prise RDV </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink=""> Liens utiles </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink=""> FAQ </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="">Solutions & Services
+          IT</a>
+
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"
+          role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Solutions & Services
+          énergetique</a>
+        <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" routerLink="">DPE</a></li>
+          <li><a class="dropdown-item" routerLink="">AUDIT</a></li>
+          <li><a class="dropdown-item" routerLink=""> SUIVI</a></li>
+          <li><a class="dropdown-item" routerLink="">SOLUTIONS</a></li>
+          <li><a class="dropdown-item" routerLink="">MAPRIMRENOV</a></li>
+        </div>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
