@@ -1,0 +1,85 @@
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+ 
+}
+
+h6 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 2em;
+  color: black;
+}
+.presentation {
+  background-color: rgb(220, 227, 245);
+}
+
+.card-body {
+  margin-top: 8%;
+  position: relative;
+
+}
+
+p {
+  font-weight: normal;
+  line-height: 2em;
+  font-size: 15px;
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.img-fluid {
+  height: 100%;
+  
+}
+.savoir_plus{
+  height: 600px;
+  width: 100%;
+}
+ /* .savoir_plus::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background:('assets/images/img2.jpg');
+  left: 0px;
+  bottom: 0px;
+  opacity: 0.6;
+background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+}  */
+
+
+@media only screen and (max-width: 768px) {
+  p {
+    padding-right: 0;
+    padding-left: 0;
+
+  }
+  h1{
+    font-size: 40px;
+
+  }
+  h2{
+    font-size: 30px;
+  }
+  .savoir_plus{
+    height: auto;
+  }
+ 
+
+ 
+}
