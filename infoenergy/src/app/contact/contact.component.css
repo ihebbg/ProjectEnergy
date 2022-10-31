@@ -1,16 +1,15 @@
 h1 {
   text-transform: uppercase;
   line-height: 1.5em;
-  text-align: center;
   font-weight: 800;
   color: black;
   font-size: 40px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
+
 .card-body {
   margin-top: 8%;
-  text-align: center;
 }
 .contact {
   background-color: rgb(220, 227, 245);
@@ -18,7 +17,6 @@ h1 {
 .information_contact {
   font-weight: lighter;
   font-size: 15px;
-  text-align: center;
   color: black;
 }
 .img-fluid {
@@ -29,12 +27,22 @@ h1 {
 iframe {
   height: 400px;
 }
+*{
+  scroll-margin-top: 100px;
+
+
+}
 @media only screen and (max-width: 768px) {
   iframe {
     height: 300px;
   }
   h1 {
     font-size: 30px;
+  }
+  *{
+    scroll-margin-top: 400px;
+
+
   }
   
 }

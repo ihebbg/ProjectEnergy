@@ -1,152 +1,157 @@
-<nav class="navbar navbar-expand-lg sticky-top">
-  <span class="navbar-brand"> infoenergy</span>
-  <div class="toggle">
-    <button
-      class="navbar-toggler collapsed"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent">
-      <span class="toggler-icon top-bar"></span>
-      <span class="toggler-icon middle-bar"></span>
-      <span class="toggler-icon bottom-bar"></span>
-    </button>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul
-      class="navbar-nav w-100 justify-content-end"
-      aria-labelledby="navbarSupportedContent">
-      <li class="nav-item">
-        <a
-          (click)="navigateToAcceuil()"
-          class="nav-link"
-          data-bs-toggle="collapse"
-          data-bs-target=".navbar-collapse.show">
-          <img
-            src="assets/images/ItemsMenu/Accueil.png"
 
-            />
-          Accueil
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          (click)="navigateToPresentationBloc()"
-          data-bs-toggle="collapse"
-          data-bs-target=".navbar-collapse.show">
-          <img
-            src="assets/images/ItemsMenu/Presentation.png"
+<nav class="navbar navbar-expand-lg navbar-default bg-default sticky-top py-4">
+  <div class="container-fluid">
+    <span class="navbar-brand"> infoenergy</span>
+    <div class="toggle">
+      <button
+        class="navbar-toggler collapsed"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul
+        class="navbar-nav w-100 justify-content-end"
+        aria-labelledby="navbarSupportedContent">
+        <li class="nav-item">
+          <a
+            (click)="navigateToAcceuil()"
+            class="nav-link"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show">
+            <img
+              src="assets/images/ItemsMenu/Accueil.png"
 
-            />
-          Qui Somme Nous ?
-        </a>
-      </li>
+              />
+            Accueil
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            (click)="navigateToPresentationBloc()"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show">
+            <img
+              src="assets/images/ItemsMenu/Presentation.png"
 
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          (click)="navigateToContactBloc()"
-          data-bs-toggle="collapse"
-          data-bs-target=".navbar-collapse.show">
-          <img
-            src="assets/images/ItemsMenu/Contact.png"
+              />
+            Qui Somme Nous ?
+          </a>
+        </li>
 
-            />Contact
-        </a>
-      </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            (click)="navigateToContactBloc()"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show">
+            <img
+              src="assets/images/ItemsMenu/Contact.png"
 
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown"
-          aria-expanded="false">
-          <img
-            src="assets/images/ItemsMenu/ServicesIT.png"
+              />Contact
+          </a>
+        </li>
 
-            />Solutions & Services IT</a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img
+              src="assets/images/ItemsMenu/ServicesIT.png"
 
-          <li>
-            <a class="dropdown-item" data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show">
-              <img
-                src="assets/images/SousRebriquesMenu/Offres.png"
+              />Solutions & Services IT</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-                />OFFRES</a>
-          </li>
-          <li>
-            <a class="dropdown-item" data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show">
-              <img
-                src="assets/images/SousRebriquesMenu/References.png"
-                width="25px"
-                height="25px"
-                />RÉFÉRENCES</a>
-          </li>
-          <li>
-            <a class="dropdown-item" data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show"><img
-                src="assets/images/SousRebriquesMenu/Valeurs.png"
+            <li>
+              <a class="dropdown-item" data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show">
+                <img
+                  src="assets/images/SousRebriquesMenu/Offres.png"
 
-                />VALEURS</a>
-          </li>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown"
-          aria-expanded="false">
-          <img
-            src="assets/images/ItemsMenu/ServicesEnergetique.png"
+                  />OFFRES</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show">
+                <img
+                  src="assets/images/SousRebriquesMenu/References.png"
+                  width="25px"
+                  height="25px"
+                  />RÉFÉRENCES</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"><img
+                  src="assets/images/SousRebriquesMenu/Valeurs.png"
 
-            />Solutions & Services énergetique</a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li>
-            <a class="dropdown-item" (click)="navigateToServiceDPE()"
-              data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show">
-              <img
-                src="assets/images/SousRebriquesMenu/Dpe.png"
+                  />VALEURS</a>
+            </li>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img
+              src="assets/images/ItemsMenu/ServicesEnergetique.png"
 
-                />DPE</a>
-          </li>
-          <li>
-            <a class="dropdown-item "(click)="navigateToServiceAUDIT()"
-              data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show">
-              <img
-                src="assets/images/SousRebriquesMenu/Audit.png"
+              />Solutions & Services énergetique</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" (click)="navigateToServiceDPE()"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show">
+                <img
+                  src="assets/images/SousRebriquesMenu/Dpe.png"
 
-                />AUDIT</a>
-          </li>
-          <li>
-            <a class="dropdown-item" (click)="navigateToServiceSUIVI()"
-              data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show"><img
-                class="image_menu"
-                src="assets/images/SousRebriquesMenu/Suivi.png"
+                  />DPE</a>
+            </li>
+            <li>
+              <a class="dropdown-item "(click)="navigateToServiceAUDIT()"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show">
+                <img
+                  src="assets/images/SousRebriquesMenu/Audit.png"
 
-                />
-              SUIVI</a>
-          </li>
-          <li>
-            <a class="dropdown-item" (click)="navigateToServiceSOLUTIONS()"><img
-                src="assets/images/SousRebriquesMenu/Solutions.png"
+                  />AUDIT</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="navigateToServiceSUIVI()"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"><img
+                  class="image_menu"
+                  src="assets/images/SousRebriquesMenu/Suivi.png"
 
-                />SOLUTIONS</a>
-          </li>
-          <li>
-            <a class="dropdown-item" (click)="navigateToServiceMAPRIMERNOV()"
-              data-bs-toggle="collapse"
-              data-bs-target=".navbar-collapse.show">
-              <img
-                src="assets/images/SousRebriquesMenu/Maprimernov.png"
+                  />
+                SUIVI</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="navigateToServiceSOLUTIONS()"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"><img
+                  src="assets/images/SousRebriquesMenu/Solutions.png"
 
-                />MAPRIMRENOV</a>
-          </li>
-        </div>
-      </li>
-    </ul>
+                  />SOLUTIONS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="navigateToServiceMAPRIMERNOV()"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show">
+                <img
+                  src="assets/images/SousRebriquesMenu/Maprimernov.png"
+
+                  />MAPRIMRENOV</a>
+            </li>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>

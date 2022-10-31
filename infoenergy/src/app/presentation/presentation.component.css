@@ -4,7 +4,6 @@ h1 {
   color: black;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
- 
 }
 
 h6 {
@@ -18,9 +17,9 @@ h6 {
 }
 
 .card-body {
-  margin-top: 8%;
-  position: relative;
+  padding-top: 8%;
 
+  position: relative;
 }
 
 p {
@@ -30,7 +29,6 @@ p {
   color: black;
   padding-left: 20%;
   padding-right: 20%;
-
 }
 h2 {
   text-transform: uppercase;
@@ -42,32 +40,32 @@ h2 {
 
 .img-fluid {
   height: 100%;
-  
 }
-.savoir_plus{
+.savoir_plus {
   height: 600px;
   width: 100%;
 }
+*{
+  scroll-margin-top: 100px;
 
-
-
+}
 @media only screen and (max-width: 768px) {
   p {
     padding-right: 0;
     padding-left: 0;
-
   }
-  h1{
+  h1 {
     font-size: 40px;
-
   }
-  h2{
+  h2 {
     font-size: 30px;
   }
-  .savoir_plus{
+  .savoir_plus {
     height: auto;
   }
- 
+  *{
+    scroll-margin-top: 400px;
 
- 
+
+  }
 }

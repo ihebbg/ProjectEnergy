@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   constructor() {}
+
   navigateToContactBloc() {
     const element = document.getElementById('contact') as HTMLElement;
     element.scrollIntoView({
@@ -27,43 +30,44 @@ export class HeaderComponent implements OnInit {
     const element = document.getElementById('dpe') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
-      block: 'center',
-      inline: 'center',
+      block: 'start',
+      inline: 'nearest',
     });
   }
   navigateToServiceMAPRIMERNOV() {
     const element = document.getElementById('maprimernov') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
-      block: 'center',
-      inline: 'center',
+      block: 'start',
+      inline: 'nearest',
     });
   }
   navigateToServiceSOLUTIONS() {
     const element = document.getElementById('solutions') as HTMLElement;
+
     element.scrollIntoView({
       behavior: 'smooth',
-      block: 'center',
-      inline: 'center',
+      block: 'start',
+      inline: 'nearest',
     });
   }
   navigateToServiceSUIVI() {
     const element = document.getElementById('suivi') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
-      block: 'center',
-      inline: 'center',
+      block: 'start',
+      inline: 'nearest',
     });
   }
   navigateToServiceAUDIT() {
     const element = document.getElementById('audit') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
-      block: 'center',
-      inline: 'center',
+      block: 'start',
+      inline: 'nearest',
     });
   }
-  ngOnInit(): void {}
+
   navigateToAcceuil() {
     const element = document.getElementById('acceuil') as HTMLElement;
     element.scrollIntoView({
@@ -72,4 +76,5 @@ export class HeaderComponent implements OnInit {
       inline: 'nearest',
     });
   }
+  ngOnInit(): void {}
 }
