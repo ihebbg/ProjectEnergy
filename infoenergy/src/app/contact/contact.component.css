@@ -27,7 +27,7 @@ h1 {
 iframe {
   height: 400px;
 }
-*{
+.card{
   scroll-margin-top: 100px;
 
 
@@ -39,7 +39,7 @@ iframe {
   h1 {
     font-size: 30px;
   }
-  *{
+  .card{
     scroll-margin-top: 400px;
 
 

@@ -45,7 +45,7 @@ h2 {
   height: 600px;
   width: 100%;
 }
-*{
+.card{
   scroll-margin-top: 100px;
 
 }
@@ -63,7 +63,7 @@ h2 {
   .savoir_plus {
     height: auto;
   }
-  *{
+  .card{
     scroll-margin-top: 400px;
 
 
