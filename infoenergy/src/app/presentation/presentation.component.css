@@ -45,10 +45,10 @@ h2 {
   height: 600px;
   width: 100%;
 }
-.card{
+/* .card{
   scroll-margin-top: 100px;
 
-}
+} */
 @media only screen and (max-width: 768px) {
   p {
     padding-right: 0;
@@ -63,9 +63,9 @@ h2 {
   .savoir_plus {
     height: auto;
   }
-  .card{
+  /* .card{
     scroll-margin-top: 400px;
 
 
-  }
+  } */
 }
