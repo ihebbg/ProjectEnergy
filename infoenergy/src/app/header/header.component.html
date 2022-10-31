@@ -1,99 +1,152 @@
-
-<nav class="navbar navbar-expand-lg sticky-top ">
-  <span class="navbar-brand "> infoenergy</span>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <span class="navbar-brand"> infoenergy</span>
   <div class="toggle">
-
-    <button class="navbar-toggler collapsed "
+    <button
+      class="navbar-toggler collapsed"
       data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent">
       <span class="toggler-icon top-bar"></span>
       <span class="toggler-icon middle-bar"></span>
       <span class="toggler-icon bottom-bar"></span>
-
     </button>
   </div>
-  <div class="collapse navbar-collapse "
-    id="navbarSupportedContent">
-    <ul class="navbar-nav w-100 justify-content-end "
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul
+      class="navbar-nav w-100 justify-content-end"
       aria-labelledby="navbarSupportedContent">
-
-      <li
-        class="nav-item">
-        <a class="nav-link" routerLink="" data-bs-toggle="collapse"
+      <li class="nav-item">
+        <a
+          (click)="navigateToAcceuil()"
+          class="nav-link"
+          data-bs-toggle="collapse"
           data-bs-target=".navbar-collapse.show">
           <img
-            src="assets/images/Accueil_menu.png" width="28px" height="28px">
+            src="assets/images/ItemsMenu/Accueil.png"
+
+            />
           Accueil
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="" (click)="navigateToPresentation()"
-          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+        <a
+          class="nav-link"
+          (click)="navigateToPresentationBloc()"
+          data-bs-toggle="collapse"
+          data-bs-target=".navbar-collapse.show">
           <img
-            src="assets/images/QuiSommesNous_menu.png" width="28px"
-            height="28px"> Qui
-          Somme Nous ? </a>
+            src="assets/images/ItemsMenu/Presentation.png"
+
+            />
+          Qui Somme Nous ?
+        </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" routerLink="" (click)="navigateToContact()"
-          data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> <img
-            src="assets/images/Contact_menu.png" width="28px" height="28px">Contact
+        <a
+          class="nav-link"
+          (click)="navigateToContactBloc()"
+          data-bs-toggle="collapse"
+          data-bs-target=".navbar-collapse.show">
+          <img
+            src="assets/images/ItemsMenu/Contact.png"
+
+            />Contact
         </a>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-          aria-expanded="false"> <img
-            src="assets/images/ServicesIT.png" width="28px" height="28px">Solutions
-          & Services
-          IT</a>
-        <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" routerLink=""><img
-                src="assets/images/Presentation_menu.png" width="25px"
-                height="25px"> PRÉSENTATION</a></li>
-          <li><a class="dropdown-item" routerLink=""> <img
-                src="assets/images/Offres_menu.png" width="25px"
-                height="25px">OFFRES</a></li>
-          <li><a class="dropdown-item" routerLink=""> <img
-                src="assets/images/References_menu.png" width="25px"
-                height="25px">RÉFÉRENCES</a></li>
-          <li><a class="dropdown-item" routerLink=""><img
-                src="assets/images/Valeurs_menu.png" width="25px"
-                height="25px">VALEURS</a></li>
-          <li><a class="dropdown-item" routerLink=""><img
-                src="assets/images/Contact_menu.png" width="25px"
-                height="25px">CONTACT</a></li>
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <img
+            src="assets/images/ItemsMenu/ServicesIT.png"
 
+            />Solutions & Services IT</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+          <li>
+            <a class="dropdown-item" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">
+              <img
+                src="assets/images/SousRebriquesMenu/Offres.png"
+
+                />OFFRES</a>
+          </li>
+          <li>
+            <a class="dropdown-item" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">
+              <img
+                src="assets/images/SousRebriquesMenu/References.png"
+                width="25px"
+                height="25px"
+                />RÉFÉRENCES</a>
+          </li>
+          <li>
+            <a class="dropdown-item" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"><img
+                src="assets/images/SousRebriquesMenu/Valeurs.png"
+
+                />VALEURS</a>
+          </li>
         </div>
-
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown" aria-expanded="false"> <img
-            src="assets/images/ServicesEnergetique_menu.png" width="28px"
-            height="28px">Solutions
-          & Services
-          énergetique</a>
-        <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" routerLink=""> <img
-                src="assets/images/DPE_menu.png" width="28px" height="28px">DPE</a></li>
-          <li><a class="dropdown-item" routerLink=""> <img
-                src="assets/images/AUDIT_menu.png" width="28px" height="28px">AUDIT</a></li>
-          <li><a class="dropdown-item" routerLink=""><img
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <img
+            src="assets/images/ItemsMenu/ServicesEnergetique.png"
+
+            />Solutions & Services énergetique</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li>
+            <a class="dropdown-item" (click)="navigateToServiceDPE()"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">
+              <img
+                src="assets/images/SousRebriquesMenu/Dpe.png"
+
+                />DPE</a>
+          </li>
+          <li>
+            <a class="dropdown-item "(click)="navigateToServiceAUDIT()"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">
+              <img
+                src="assets/images/SousRebriquesMenu/Audit.png"
+
+                />AUDIT</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="navigateToServiceSUIVI()"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"><img
                 class="image_menu"
-                src="assets/images/SUIVI_menu.png" width="28px"
-                height="28px"> SUIVI</a></li>
-          <li><a class="dropdown-item" routerLink=""><img
-                src="assets/images/SOLUTIONS_menu.png" width="28px"
-                height="28px">SOLUTIONS</a></li>
-          <li><a class="dropdown-item" routerLink=""> <img
-                src="assets/images/MAPRIMRENOV_menu.png" width="28px"
-                height="28px">MAPRIMRENOV</a></li>
+                src="assets/images/SousRebriquesMenu/Suivi.png"
+
+                />
+              SUIVI</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="navigateToServiceSOLUTIONS()"><img
+                src="assets/images/SousRebriquesMenu/Solutions.png"
+
+                />SOLUTIONS</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="navigateToServiceMAPRIMERNOV()"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">
+              <img
+                src="assets/images/SousRebriquesMenu/Maprimernov.png"
+
+                />MAPRIMRENOV</a>
+          </li>
         </div>
       </li>
-
-
     </ul>
   </div>
+</nav>

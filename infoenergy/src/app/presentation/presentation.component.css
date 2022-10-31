@@ -48,19 +48,19 @@ h2 {
   height: 600px;
   width: 100%;
 }
- /* .savoir_plus::before{
-  content: '';
+.savoir_plus::before {
+  background-image: url('../../assets/images/Standard/SavoirPlus.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  content: "";
   position: absolute;
   top: 0px;
-  right: 0px;
-  background:('assets/images/img2.jpg');
   left: 0px;
   bottom: 0px;
-  opacity: 0.6;
-background-repeat:no-repeat;
-background-size: cover;
-background-position:center;
-}  */
+  opacity: 0.7;
+  right: 0px;
+}
 
 
 @media only screen and (max-width: 768px) {

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   constructor() {}
-  navigateToContact(): any {
+  navigateToContactBloc() {
     const element = document.getElementById('contact') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
       inline: 'nearest',
     });
   }
-  navigateToPresentation(): any {
+  navigateToPresentationBloc() {
     const element = document.getElementById('presentation') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
@@ -23,5 +23,53 @@ export class HeaderComponent implements OnInit {
       inline: 'nearest',
     });
   }
+  navigateToServiceDPE() {
+    const element = document.getElementById('dpe') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center',
+      inline: 'start',
+    });
+  }
+  navigateToServiceMAPRIMERNOV() {
+    const element = document.getElementById('maprimernov') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center',
+      inline: 'start',
+    });
+  }
+  navigateToServiceSOLUTIONS() {
+    const element = document.getElementById('solutions') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center',
+      inline: 'start',
+    });
+  }
+  navigateToServiceSUIVI() {
+    const element = document.getElementById('suivi') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'auto',
+      block: 'center',
+      inline: 'start',
+    });
+  }
+  navigateToServiceAUDIT() {
+    const element = document.getElementById('audit') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'auto',
+      block: 'center',
+      inline: 'start',
+    });
+  }
   ngOnInit(): void {}
+  navigateToAcceuil() {
+    const element = document.getElementById('acceuil') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
 }

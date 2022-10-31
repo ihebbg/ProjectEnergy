@@ -18,16 +18,11 @@ p {
   font-weight: lighter;
   text-align: center;
   line-height: 2em;
-
-  display: block;
-
   padding-left: 20%;
   padding-right: 20%;
   font-size: 15px;
 }
-.card-body {
-  text-align: center;
-}
+
 .card {
   align-items: center;
 }
@@ -38,6 +33,7 @@ img {
 h3 {
   line-height: 1.5em;
   font-size: 22px;
+  text-align: center;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
   color: black;
