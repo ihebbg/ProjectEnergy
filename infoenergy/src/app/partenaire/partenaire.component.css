@@ -39,7 +39,9 @@ h3 {
   color: black;
   font-weight: 800;
 }
-
+.card{
+  padding: 0 0 10px;
+}
 @media only screen and (max-width: 768px) {
   img {
     width: 100%;
