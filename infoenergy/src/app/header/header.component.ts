@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
     });
   }
   navigateToPresentationBloc() {
-    const element = document.getElementById('presentation') as HTMLElement;
+    const element = document.getElementById('qui_sommes_nous') as HTMLElement;
     element.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit {
     element.scrollIntoView({
       behavior: 'smooth',
       block: 'center',
-      inline: 'start',
+      inline: 'center',
     });
   }
   navigateToServiceMAPRIMERNOV() {
@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
     element.scrollIntoView({
       behavior: 'smooth',
       block: 'center',
-      inline: 'start',
+      inline: 'center',
     });
   }
   navigateToServiceSOLUTIONS() {
@@ -44,23 +44,23 @@ export class HeaderComponent implements OnInit {
     element.scrollIntoView({
       behavior: 'smooth',
       block: 'center',
-      inline: 'start',
+      inline: 'center',
     });
   }
   navigateToServiceSUIVI() {
     const element = document.getElementById('suivi') as HTMLElement;
     element.scrollIntoView({
-      behavior: 'auto',
+      behavior: 'smooth',
       block: 'center',
-      inline: 'start',
+      inline: 'center',
     });
   }
   navigateToServiceAUDIT() {
     const element = document.getElementById('audit') as HTMLElement;
     element.scrollIntoView({
-      behavior: 'auto',
+      behavior: 'smooth',
       block: 'center',
-      inline: 'start',
+      inline: 'center',
     });
   }
   ngOnInit(): void {}
