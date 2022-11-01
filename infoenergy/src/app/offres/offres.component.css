@@ -1,0 +1,50 @@
+h1 {
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .nom_bloc{
+    padding-top:4%;
+    padding-bottom: 4%;
+  }
+  h6 {
+    font-weight: lighter;
+    line-height: 2em;
+    font-size: 18px;
+    color: black;
+
+  }
+  h3{
+    color: #003862;
+    line-height: 1.5em;
+    font-weight: normal;
+    font-size: 25px;
+
+  }
+  .description_offre{
+    background-color: rgb(220, 227, 245);
+}
+  h5{
+    color: #181818;
+    line-height: 1.5em;
+    font-weight: normal;
+    font-size: 15px;
+
+  }
+  p {
+    font-weight: normal;
+    line-height: 2.5em;
+    font-size: 15px;
+    color: black;
+
+  }
+  .card-body {
+    padding-top: 10%;
+  
+  }
+  .img-fluid {
+    height: 100%;
+    width: 100%;
+  }

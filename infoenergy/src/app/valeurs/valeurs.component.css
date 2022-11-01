@@ -1,0 +1,29 @@
+h1 {
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+  }
+.nom_bloc{
+    padding-top:4%;
+    padding-bottom: 4%;}
+  h6 {
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+  
+  }
+  .valeurs_description{
+    text-align:center;
+  }
+
+  li{
+    line-height: 2em;
+
+  }
+.valeurs_description{
+    padding-bottom: 4%;
+}

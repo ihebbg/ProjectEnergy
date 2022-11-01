@@ -1,0 +1,30 @@
+h1 {
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  h5{
+    font-weight: normal;
+    color: #003862;
+  }
+  .nom_bloc{
+    padding-top:4%;
+    padding-bottom: 4%;
+
+  }
+  .card {
+    align-items: center;
+    width:20rem;
+  }
+
+img{
+  width: 50%;
+  height: auto ;
+
+}
+.col-md-3{
+  padding-bottom: 4%;
+
+}

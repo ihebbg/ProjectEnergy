@@ -9,6 +9,9 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { ServicesEnergetiqueComponent } from './services-energetique/services-energetique.component';
+import { OffresComponent } from './offres/offres.component';
+import { ReferencesComponent } from './references/references.component';
+import { ValeursComponent } from './valeurs/valeurs.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +22,9 @@ import { ServicesEnergetiqueComponent } from './services-energetique/services-en
     FooterComponent,
     AccueilComponent,
     ServicesEnergetiqueComponent,
+    OffresComponent,
+    ReferencesComponent,
+    ValeursComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -67,7 +67,30 @@ export class HeaderComponent implements OnInit {
       inline: 'nearest',
     });
   }
-
+  navigateToReferenceBloc() {
+    const element = document.getElementById('references') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
+  navigateToValeurBloc() {
+    const element = document.getElementById('valeurs') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
+  navigateToOffreBloc() {
+    const element = document.getElementById('offres') as HTMLElement;
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
   navigateToAcceuil() {
     const element = document.getElementById('acceuil') as HTMLElement;
     element.scrollIntoView({

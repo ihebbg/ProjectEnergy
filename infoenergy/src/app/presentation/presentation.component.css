@@ -17,8 +17,7 @@ h6 {
 }
 
 .card-body {
-  padding-top: 8%;
-
+  padding-top: 10%;
   position: relative;
 }
 
@@ -27,8 +26,8 @@ p {
   line-height: 2em;
   font-size: 15px;
   color: black;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 h2 {
   text-transform: uppercase;
@@ -40,15 +39,13 @@ h2 {
 
 .img-fluid {
   height: 100%;
+  width: 100%;
 }
 .savoir_plus {
   height: 600px;
   width: 100%;
 }
-/* .card{
-  scroll-margin-top: 100px;
 
-} */
 @media only screen and (max-width: 768px) {
   p {
     padding-right: 0;
@@ -63,9 +60,5 @@ h2 {
   .savoir_plus {
     height: auto;
   }
-  /* .card{
-    scroll-margin-top: 400px;
 
-
-  } */
 }
