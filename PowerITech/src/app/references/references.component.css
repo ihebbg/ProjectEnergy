@@ -17,7 +17,12 @@ h1 {
   .card {
     align-items: center;
   }
-
+p{
+  font-weight: lighter;
+  line-height: 2em;
+ 
+  font-size: 15px;
+}
 img{
   width: 50%;
   height: auto ;

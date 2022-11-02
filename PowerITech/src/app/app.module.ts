@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { PresentationComponent } from './presentation/presentation.component';
-import { PartenaireComponent } from './partenaire/partenaire.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
@@ -12,12 +11,14 @@ import { ServicesEnergetiqueComponent } from './services-energetique/services-en
 import { OffresComponent } from './offres/offres.component';
 import { ReferencesComponent } from './references/references.component';
 import { ValeursComponent } from './valeurs/valeurs.component';
+import { UrlSerializer } from '@angular/router';
+import { LowerCaseUrlSerializer } from './shared/utils/url_case';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PresentationComponent,
-    PartenaireComponent,
+
     ContactComponent,
     FooterComponent,
     AccueilComponent,
@@ -27,7 +28,12 @@ import { ValeursComponent } from './valeurs/valeurs.component';
     ValeursComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  providers: [
+    {
+      provide: UrlSerializer,
+      useClass: LowerCaseUrlSerializer,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

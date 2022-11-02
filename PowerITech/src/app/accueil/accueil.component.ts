@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accueil.component.css'],
 })
 export class AccueilComponent implements OnInit {
-  title = 'Accueil| Infoenergy';
+  title = 'Accueil| PowerITech';
 
   constructor() {}
 
