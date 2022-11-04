@@ -13,6 +13,9 @@ import { ReferencesComponent } from './references/references.component';
 import { ValeursComponent } from './valeurs/valeurs.component';
 import { UrlSerializer } from '@angular/router';
 import { LowerCaseUrlSerializer } from './shared/utils/url_case';
+
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +29,7 @@ import { LowerCaseUrlSerializer } from './shared/utils/url_case';
     OffresComponent,
     ReferencesComponent,
     ValeursComponent,
+    NotFoundPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [

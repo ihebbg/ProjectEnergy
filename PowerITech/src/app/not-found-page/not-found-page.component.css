@@ -1,0 +1,11 @@
+.error{
+    background-color: rgb(220, 227, 245);
+    height: 100vh;
+}
+.text-center{
+    position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
