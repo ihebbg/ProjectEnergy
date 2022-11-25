@@ -5,7 +5,7 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
 
 const routes: Routes = [
   { path: '', component: AccueilComponent },
-  { path: '**', pathMatch: 'full', component: NotFoundPageComponent },
+  // { path: '**', pathMatch: 'full', component: NotFoundPageComponent },
 ];
 
 @NgModule({

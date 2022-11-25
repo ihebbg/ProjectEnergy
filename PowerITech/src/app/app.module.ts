@@ -11,8 +11,6 @@ import { ServicesEnergetiqueComponent } from './services-energetique/services-en
 import { OffresComponent } from './offres/offres.component';
 import { ReferencesComponent } from './references/references.component';
 import { ValeursComponent } from './valeurs/valeurs.component';
-import { UrlSerializer } from '@angular/router';
-import { LowerCaseUrlSerializer } from './shared/utils/url_case';
 
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 
@@ -32,12 +30,7 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
     NotFoundPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [
-    {
-      provide: UrlSerializer,
-      useClass: LowerCaseUrlSerializer,
-    },
-  ],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
