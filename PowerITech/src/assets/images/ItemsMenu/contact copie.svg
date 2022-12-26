@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4e5ef1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.08px;
+      }
+    </style>
+  </defs>
+  <g id="SvgjsG1035">
+    <circle class="cls-1" cx="15.34" cy="20.86" r="5.24"/>
+    <path class="cls-1" d="M7.9,34.38c-.08-4.49,3.5-8.2,7.99-8.28h0m7.46,8.28c.08-4.49-3.5-8.2-7.99-8.28h0"/>
+    <line class="cls-1" x1="28.94" y1="17.7" x2="42.11" y2="17.7"/>
+    <line class="cls-1" x1="28.94" y1="24.45" x2="42.11" y2="24.45"/>
+    <line class="cls-1" x1="28.94" y1="31.2" x2="42.11" y2="31.2"/>
+  </g>
+</svg>
