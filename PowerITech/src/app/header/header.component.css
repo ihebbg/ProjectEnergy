@@ -14,7 +14,7 @@ a:hover,
 a:visited {
   color: black;
   cursor: pointer;
-  font-weight: lighter;
+  font-weight: normal;
   line-height: 30px;
   font-size: 14px;
   text-transform: uppercase;
